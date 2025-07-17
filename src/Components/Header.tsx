@@ -7,7 +7,7 @@ export default function Header(){
 
     return(
 
-        <div className="h-16 md:h-20  text-2xl z-50  w-full  not-first:flex items-center justify-between  p-4   gap-8  md:justify-around border-b-2  bg-gray-300/40  backdrop-blur-[2px]   ">
+        <div className="h-16 md:h-20 fixed top-0 text-2xl z-50  w-full  not-first:flex items-center justify-between  p-4   gap-8  md:justify-around border-b-2  bg-gray-300/40  backdrop-blur-[2px]   ">
             {/* logo */}
          <div className="text-xl md:text-3xl font-bold text-red-500 mx-6">
            YB
