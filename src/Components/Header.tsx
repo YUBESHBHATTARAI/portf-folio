@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Mobile from "./Mobile";
+import Resume from "./Resume";
 
 
 
@@ -21,7 +22,7 @@ export default function Header(){
             <Link href="/skills">skills</Link>
             <Link href="/projects">projects</Link>
             <Link href="/contacts">contacts</Link>
-          
+           <Resume/>
          
         </div>
 

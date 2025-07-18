@@ -19,7 +19,7 @@ export default function Mobile(){
     return(
 
       <div className="w-40  md:hidden flex flex-col items-center justify-center top-1 right-12 z-50  absolute text-xl   backdrop-blur-[2px] mt-4  rounded-md   ">
-          {open ? <span className='text-xl flex justify-end' onClick={()=>setOpen(false)}>X</span> : <span  className="text-xl flex  items-center justify-end font-bold "onClick={()=>setOpen(true)}>≡</span>}
+          {open ? <span className='text-xl flex justify-end w-2 ' onClick={()=>setOpen(false)}>X</span> : <span  className="text-xl flex  items-center justify-end font-bold "onClick={()=>setOpen(true)}>≡</span>}
         
       
            {open &&   mobile.map((item)=>(
