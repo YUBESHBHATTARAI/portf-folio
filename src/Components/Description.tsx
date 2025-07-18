@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Description(){
 
     return(
-        <div className=" h-[calc(100vh-5rem)] mt-[4rem] md:mt-[5rem] flex flex-col items-center md:flex-row md:justify-evenly  md:items-start  text-justify ">
+        <div className=" h-[calc(100vh-5rem)]  mt-[4rem] md:mt-[5rem] flex flex-col items-center md:flex-row md:justify-evenly  md:items-start  text-justify ">
             {/* bg-color  */}
          <div className="absolute inset-0 -z-10 size-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]" />
             {/* text section */}
@@ -17,7 +17,7 @@ export default function Description(){
                <button className="text-poppins font-bold bg-blue-600 text-white px-3 py-2  rounded-md  mt-2 mx-5  ">
                 <Link href="/about ">Learn more </Link>
                </button>
-               <button className="text-poppins font-bold bg-blue-600 text-white px-3 py-2  rounded-md  mt-2 mx-5  ">
+               <button className="font-[Outfit] font-bold bg-blue-600 text-white px-3 py-2  rounded-md  mt-2 mx-5  ">
                 <Link href="/contact ">contact me </Link>
                </button>
                </div>

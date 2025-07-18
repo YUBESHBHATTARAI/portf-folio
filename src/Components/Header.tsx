@@ -15,15 +15,14 @@ export default function Header(){
          </div>
 
          {/* hamberger */}
-         <div className="hidden md:flex flex-row items-center gap-5  ">
-         
+         <div className="hidden md:flex flex-row items-center gap-5 font-[Inter]">
+
             <Link href="/">Home</Link>
             <Link href="/about">about </Link>
             <Link href="/skills">skills</Link>
             <Link href="/projects">projects</Link>
             <Link href="/contacts">contacts</Link>
            <Resume/>
-         
         </div>
 
               {/* mobile view */}

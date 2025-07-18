@@ -2,13 +2,15 @@
 
 import React,{useState} from 'react';
 import Link from "next/link";
+import Resume from "./Resume";
 
 const mobile =[
   {id: 1, name: 'home ' , url: "/"},
   {id: 2, name: 'about ' , url: "/about"},
   {id: 3, name: 'skills ' , url: "/skills"},
   {id: 4, name: 'projects ' , url: "/projects"},
-  {id: 5, name: 'contacts ' , url: "/contacts"}
+  {id: 5, name: 'contacts ' , url: "/contacts"},
+  {id: 6, fonts:"text-2xl bg-red-500", name: 'resume ' , url: "/Resume.png",download:true}
 ]
 
 
@@ -24,9 +26,12 @@ export default function Mobile(){
       
            {open &&   mobile.map((item)=>(
              <div key={item.id } className={` bg-white/75 bg-blur-[2px] py-4 flex flex-col justify-center items-center w-60 h-[5rem] gap-5 text-2xl  `}  onClick={()=>setOpen(false)} >  
-           <Link  href={item.url}>{item.name}</Link>
+           <Link  href={item.url}>{item.name}
+           <span className={item.fonts}></span>
+            </Link>
            </div>
          ))}         
+         
              </div>
           
       
