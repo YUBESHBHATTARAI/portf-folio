@@ -1,11 +1,10 @@
 
 
 
-export default function Page(){
+export default function ContactPage(){
 
-    return(
-        <div>
-           contacts page
-        </div>
-    )
+
+    return(<div>
+        contact
+    </div>)
 }

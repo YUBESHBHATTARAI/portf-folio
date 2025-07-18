@@ -20,12 +20,12 @@ export default function Mobile(){
     
     return(
 
-      <div className="w-40  md:hidden flex flex-col items-center justify-center top-1 right-12 z-50  absolute text-xl   backdrop-blur-[2px] mt-4  rounded-md   ">
-          {open ? <span className='text-xl flex justify-end w-2 ' onClick={()=>setOpen(false)}>X</span> : <span  className="text-xl flex  items-center justify-end font-bold "onClick={()=>setOpen(true)}>≡</span>}
+      <div className="w-40  md:hidden flex flex-col items-center justify-center top-1 right-12 z-50  absolute text-xl  bg-blur-[5px]   mt-4  rounded-md   ">
+          {open ? <span className='text-xl flex justify-end w-1  ' onClick={()=>setOpen(false)}>X</span> : <span  className="text-xl flex  items-center justify-end font-bold "onClick={()=>setOpen(true)}>≡</span>}
         
       
            {open &&   mobile.map((item)=>(
-             <div key={item.id } className={` bg-white/75 bg-blur-[2px] py-4 flex flex-col justify-center items-center w-60 h-[5rem] gap-5 text-2xl  `}  onClick={()=>setOpen(false)} >  
+             <div key={item.id } className={`  py-4 flex flex-col justify-center items-center w-60 bg-white/80  backdrop-blur-[2px] gap-5 text-2xl h-[5rem]  `}  onClick={()=>setOpen(false)} >  
            <Link  href={item.url}>{item.name}
            <span className={item.fonts}></span>
             </Link>

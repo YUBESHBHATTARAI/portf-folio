@@ -10,8 +10,8 @@ export default function Header(){
 
         <div className="h-16 md:h-20 fixed top-0 text-2xl z-50  w-full  not-first:flex items-center justify-between  p-4   gap-8  md:justify-around border-b-2  bg-gray-300/40  backdrop-blur-[2px]   ">
             {/* logo */}
-         <div className="text-xl md:text-3xl font-bold text-red-500 mx-6">
-           YB
+         <div className="text-xl md:text-2xl font-bold text-gray-500 mx-6">
+           y<span className="font-bold text-3xl text-gray-700">B</span>
          </div>
 
          {/* hamberger */}
