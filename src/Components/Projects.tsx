@@ -6,7 +6,7 @@ export default function Projects() {
     <div className="w-screen  overflow-x-scroll text-stone-700 bg-fuchsia-50   ">
       <div className=" w-max flex gap-2  ">
         {projects.map((item) => (
-          <div key={item.id} className="w-screen flex flex-col justify-center items-center h-[60vh] p-6 md:w-[50vw] lg:w-[33vw] ">
+          <div key={item.id} className="w-screen flex flex-col justify-center items-center h-[60vh] p-6 md:w-[50vw] lg:w-[33vw]   ">
             {item.img && (
               <div className="relative flex flex-1 w-full">
                   <Link href="/projects">
