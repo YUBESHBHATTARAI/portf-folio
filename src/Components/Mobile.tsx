@@ -7,9 +7,8 @@ import Resume from "./Resume";
 const mobile =[
   {id: 1, name: 'home ' , url: "/"},
   {id: 2, name: 'about ' , url: "/about"},
-  {id: 3, name: 'skills ' , url: "/skills"},
-  {id: 4, name: 'projects ' , url: "/projects"},
-  {id: 5, name: 'contacts ' , url: "/contacts"},
+  {id: 3, name: 'projects ' , url: "/projects"},
+  {id: 4, name: 'contacts ' , url: "/contacts"},
   
 ]
 

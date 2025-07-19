@@ -19,7 +19,6 @@ export default function Header(){
 
             <Link href="/">Home</Link>
             <Link href="/about">about </Link>
-            <Link href="/skills">skills</Link>
             <Link href="/projects">projects</Link>
             <Link href="/contacts">contacts</Link>
         

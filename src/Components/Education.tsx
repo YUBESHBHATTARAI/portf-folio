@@ -18,7 +18,7 @@ export default function Education(){
            <div>
               <h1>Secondary</h1>
               <div>
-                  <Image src="/profile.jpg" alt="" height={20} width={20} />
+                  <Image src="/Resume.png" alt="" height={20} width={20} />
                 <h1>VVA</h1>
                 <p>2006-2003</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, corrupti!</p>
@@ -58,11 +58,11 @@ export default function Education(){
            <div>
               <h1>Bachlor</h1>
               <div>
-                <Image src="portfolio/public/swimming .jpg" alt="" height={20} width={20} />
+                <Image src="/Resume.png" alt="" height={20} width={20} />
                 <h1>MMC</h1>
                 <p>2006-2003</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, corrupti!</p>
                 <Card/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, corrupti!</p>
               </div>
            </div>
         </div>
