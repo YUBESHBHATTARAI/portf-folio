@@ -1,7 +1,7 @@
 
 
 
-type Info ={
+type Project ={
     id:number,
     name:string,
     img:string,
@@ -10,30 +10,54 @@ type Info ={
     languages ?:string[]
  
 };
- type information =Info[];
+ type Projects =Project[];
 
 
- export const projects: information =[
-     {
+ export  const projects: Projects =[
+     {   
         id:1,
         name:"DO you love me",
-        img:"/djsdn.jpg",
-        url:"afjnjf.com",
-        desc:"This is a project about love and relationships. It explores the dynamics of love",
+        img:"/Resume.png",
+        url:"https://github.com/YUBESHBHATTARAI/fooddelivery/blob/main/src/app/menu/%5BCatogories%5D/page.tsx",
+        desc:"This is a project about love incididunt ut labore et dolore magna aliqua.dbcveubvhebvhe fbehcbvehc",
         languages:["JavaScript", "HTML", "CSS"]
      },
      {
         id:2,
-        name:"DO whatever yourself",
-        img:"/djsdn.jpg",
+        name:"DO whatevgbthbthtr",
+        img:"/portfolio/public/swimming .jpg",
         url:"afjnjf.com",
         desc:"This is a project about love and relationships. It explores the dynamics of love",
         languages:["JavaScript", "HTML", "CSS"]
      },
      {
-        id:3,
-        name:"DO ydont bother me ",
-        img:"/djsdn.jpg",
+        id:4,
+        name:"DO  fthrhtj",
+        img:"/profile.jpg",
+        url:"afjnjf.com",
+        desc:"This is a project about love and relationships. It explores the dynamics of love",
+        languages:["JavaScript", "HTML", "CSS"]
+     },
+     {
+        id:5,
+        name:"DO htht ",
+        img:"/Resume.png",
+        url:"afjnjf.com",
+        desc:"This is a project about love and relationships. It explores the dynamics of love",
+        languages:["JavaScript", "HTML", "CSS"]
+     },
+     {
+        id:6,
+        name:"DO ygth hh yuj ",
+        img:"/profile.jpg",
+        url:"afjnjf.com",
+        desc:"This is a project about love and relationships. It explores the dynamics of love",
+        languages:["JavaScript", "HTML", "CSS"]
+     },
+     {
+        id:7,
+        name:"DO wegdbgfe ",
+        img:"/Resume.png",
         url:"afjnjf.com",
         desc:"This is a project about love and relationships. It explores the dynamics of love",
         languages:["JavaScript", "HTML", "CSS"]

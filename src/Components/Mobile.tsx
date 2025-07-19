@@ -10,9 +10,8 @@ const mobile =[
   {id: 3, name: 'skills ' , url: "/skills"},
   {id: 4, name: 'projects ' , url: "/projects"},
   {id: 5, name: 'contacts ' , url: "/contacts"},
-  {id: 6, fonts:"text-2xl bg-red-500", name: 'resume ' , url: "/Resume.png",download:true}
+  
 ]
-
 
 export default function Mobile(){
   const[open,setOpen]=useState(false);
@@ -27,7 +26,7 @@ export default function Mobile(){
            {open &&   mobile.map((item)=>(
              <div key={item.id } className={`  py-4 flex flex-col justify-center items-center w-60 bg-white/80  backdrop-blur-[2px] gap-5 text-2xl h-[5rem]  `}  onClick={()=>setOpen(false)} >  
            <Link  href={item.url}>{item.name}
-           <span className={item.fonts}></span>
+         
             </Link>
            </div>
          ))}         

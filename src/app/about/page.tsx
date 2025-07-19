@@ -5,8 +5,11 @@ export default function AboutPage(){
 
     return(
         <div className="min-h-[calc(100vh-5rem)]  mt-[4.5em]   text-justify p-5 m-2 ">
-          <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatibus laboriosam exercitationem dolores iusto voluptatem provident a hic obcaecati possimus unde consequuntur nulla voluptate minus similique odit, perspiciatis dolor et distinctio sunt aut autem veritatis dignissimos dicta. Nesciunt quasi repellat perferendis tempora consequuntur eius laborum quisquam sint. Veritatis harum ut praesentium? Quibusdam architecto esse pariatur adipisci beatae totam corporis earum, possimus odio laboriosam Repellendus quae, laudantium dignissimos sapiente dolor dolores ipsa quia alias deleniti eius pariatur unde distinctio! Incidunt officia eum quae dignissimos alias ducimus blanditiis maxime debitis nobis quibusdam, architecto ex voluptas?0</h1>
-         
+<h1>Hey there! I’m [Your Name], a front-end web developer with a passion for creating clean, responsive, and intuitive digital experiences. I specialize in crafting modern websites using HTML, CSS, JavaScript, and frameworks like React and Next.js. Whether it’s building from scratch or bringing a design to life, I focus on writing efficient code and creating smooth, user-friendly interfaces that feel just right on any screen.
+
+I’m all about that balance between creativity and functionality — the kind of work that not only looks good but also performs beautifully. I love experimenting with new tools, staying up to date with front-end trends, and continuously improving my skills. When I’m not coding, I’m probably geeking out over UI animations or planning my next side project. Let’s build something cool together!
+
+</h1>         
         </div>
     )
 }
