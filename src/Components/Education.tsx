@@ -35,7 +35,8 @@ export default function Education(){
     return(
         <div className=" w-screen flex  flex-col px-6 py-3  gap-1 md:flex-row  text-stone-600 rounded-lg    ">
           {schools.map((item)=>(
-           <div  key={item.id}className="ring-1 ring-black   w-full  flex flex-col justify-center items-center my-2 md:mx-1  h-[30vh] md:h-[36vh] lg:h-[40vh]  md:w-[50vw] lg:w-[33vw] shadow-md rounded-lg  gap-4 shadow-lg    ">
+           <div  key={item.id} className="ring-1 ring-black w-full  flex flex-col justify-center items-center my-2 md:mx-1  h-[30vh] md:h-[36vh] lg:h-[40vh]  md:w-[50vw] lg:w-[33vw] shadow-[0_0_20px_rgba(0,0,0,0.15)] 
+ rounded-lg  gap-4       ">
                  <h1 className="text-center text-2xl lg:text-3xl  font-bold font-serif uppercase ">{item.class}</h1>
                  <h1 className="text-center  text-xl font-bold font-sans text-stone-800">{item.fullname} <span className="font-mono font-bold ">({item.name})</span></h1>
                  <p className="text-center  font-mono  ">SUB:{item.sub}</p>

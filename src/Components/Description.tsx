@@ -10,7 +10,7 @@ export default function Description(){
             {/* bg-color  */}
          <div className="absolute inset-0 -z-10 size-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:20px_20px]" />
             {/* text section */}
-           <div className="order-2 md:order-1  my-3 mx-3 shadow-md py-4 px-2  h-[30vh] w-full md:h-[38vh] md:w-[65vw] md:rounded-md md:text-lg lg:h-[34vh] lg:w-[37vw] lg:rounded-md lg:text-2xl lg:space-y-4   ">
+           <div className="order-2 md:order-1  my-3 mx-3 shadow-md py-4 px-2  h-[30vh] w-full md:h-[38vh] md:w-[65vw] md:rounded-md md:text-lg lg:h-[36vh] lg:w-[39vw]  2xl:h-[35vh] 2xl:w-[38vw]  lg:rounded-md lg:text-2xl lg:space-y-4   ">
                 <span  className=" flex justify-center font-bold text-center text-xl font-mono text-gray-600">Hi !'m</span>
                <h1 className="font-bold text-center text-3xl text-stone-800"><span className="text-4xl text-stone-800">YUBESH</span> BHATTARAI</h1>
                <p className="text-center md:text-2xl">   <span className="text-2xl md:text-3xl  text-gray-600 font-bold lg:my-2">web developer </span> <br />  </p>
@@ -24,7 +24,7 @@ export default function Description(){
                </div>
            </div>
            {/* img section */}
-        <div className="relative h-[25vh] w-[45vw] md:h-[28vh] md:w-[28vw] lg:h-[30vh] lg:w-[15vw] order-1 md:order-2 bg-blue-400 rounded-full mt-1 shadow-xl shadow-blue-500/75 md:rounded-full ">
+        <div className="relative h-[25vh] w-[45vw] md:h-[28vh] md:w-[29vw] lg:h-[30vh] lg:w-[15vw] order-1 md:order-2 bg-blue-400 rounded-full mt-1 shadow-xl shadow-blue-500/75 md:rounded-full ">
   <Image
     src="/profile.jpg"
     alt="Profile"
