@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Mobile from "./Mobile";
-import Resume from "./Resume";
+
 
 
 
