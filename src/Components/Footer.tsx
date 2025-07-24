@@ -23,7 +23,7 @@ export default function Footer(){
             <h1 className="text-xl font-bold font-serif ">Quick links</h1>
             <Link href="/">Home</Link>
             <Link href="/about">about </Link>
-            <Link href="/skills">skills</Link>
+            <Link href="/askMe">Ask me </Link>
             <Link href="/projects">projects</Link>
             <Link href="/contacts">contacts</Link>
           </div>
