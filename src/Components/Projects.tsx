@@ -3,12 +3,10 @@ import Link from "next/link";
 import { projects } from "@/data";
 export default function Projects() {
   return (
-    <div className="w-screen  overflow-x-scroll text-stone-700    ">
-      
-      
-      <div className=" w-max flex gap-2  ">
+    <div className="  overflow-x-scroll text-stone-700 w-[70%] mx-auto  ">
+      <div className=" w-max  gap-2   flex items-center justify-center  ">
         {projects.map((item) => (
-          <div key={item.id} className="w-screen flex flex-col justify-center items-center h-[60vh] p-6 md:w-[50vw] lg:w-[33vw]   ">
+          <div key={item.id} className="w-[74vw] flex flex-col justify-center items-center h-[60vh] p-6 md:w-[34vw] lg:w-[23vw]  transition-all duration-500 ease-in-out   ">
             {item.img && (
               <div className="relative flex flex-1 w-full">
                   <Link href="/projects">
@@ -16,7 +14,7 @@ export default function Projects() {
                   src={item.img}
                   alt={item.name}
                   fill
-                  className="object-cover rounded-md shadow-md shadow-gray-500/50 "
+                  className="object-cover rounded-md shadow-md shadow-gray-500/50 transition-transform duration-300 hover:scale-110"
                 /> </Link>
                
               </div>

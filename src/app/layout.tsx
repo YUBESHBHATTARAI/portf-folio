@@ -33,7 +33,10 @@ export default function RootLayout({
       >
           
             <Header/>
+            <div className="mt-14">
+              
             {children}
+            </div>
             <Footer />
        
       </body>
