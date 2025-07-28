@@ -1,4 +1,7 @@
 'use client'
+import emailjs from 'emailjs-com'
+
+
 
 import { Button } from "@/Components/ui/button"
 import {
@@ -21,12 +24,27 @@ export default function AskMePage() {
     message: ''
   })
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    })
+ const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault()
+  setIsSubmitting(true)
+
+  try {
+    await emailjs.send(
+      'YOUR_SERVICE_ID',
+      'YOUR_TEMPLATE_ID',
+      formData, // It must match keys in your EmailJS template
+      'YOUR_PUBLIC_KEY'
+    )
+    alert("Message sent successfully!")
+    setFormData({ name: '', email: '', subject: '', message: '' })
+  } catch (error) {
+    console.error("EmailJS Error:", error)
+    alert("Failed to send message.")
   }
+
+  setIsSubmitting(false)
+}
+
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -40,6 +58,8 @@ export default function AskMePage() {
 
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-2 sm:p-4 relative overflow-hidden mt-[4rem] md:mt-[5rem]">
+      <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
+
       <div className="relative z-10 w-full max-w-2xl">
         {/* Header Section */}
         <div className="text-center mb-6 sm:mb-12">

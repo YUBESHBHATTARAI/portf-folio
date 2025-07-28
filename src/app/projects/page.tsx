@@ -9,6 +9,8 @@ export default function ProjectsPage (){
 
     return (
         <div className=" mt-[4rem] md:mt-[5rem] flex flex-col md:flex-row items-center justify-center flex-wrap min-h-screen  ">
+            <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
+
             {projects.map((project)=>(
                 <div key={project.id} className=" border-r-2 even:bg-gray-50  odd:bg-white/80 border-black border-b-2 w-screen flex flex-col justify-center items-center h-[60vh] p-3 md:w-[48vw] lg:w-[33vw]  ">
 
