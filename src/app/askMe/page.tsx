@@ -46,15 +46,7 @@ export default function AskMePage() {
 }
 
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000))
-    setIsSubmitting(false)
-    // Reset form
-    setFormData({ name: '', email: '', subject: '', message: '' })
-  }
+
 
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-2 sm:p-4 relative overflow-hidden mt-[4rem] md:mt-[5rem]">
