@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Description(){
 
     return(
-        <div className="   mt-[4rem] md:mt-[5rem] flex flex-col items-center md:flex-row md:justify-evenly  md:items-start  text-justify ">
+        <div className="   mt-[4rem] md:mt-[5rem] flex flex-col items-center md:flex-row md:justify-evenly  md:items-start  text-justify  ">
             {/* bg-color  */}
          <div className="absolute inset-0 -z-10 size-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:20px_20px]" />
             {/* text section */}

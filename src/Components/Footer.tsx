@@ -21,11 +21,11 @@ export default function Footer(){
           {/* nav links */}
          <div className=" flex flex-col  gap-4 md:text-center font-mono  ">
             <h1 className="text-xl font-bold font-serif ">Quick links</h1>
-            <Link href="/">Home</Link>
-            <Link href="/about">about </Link>
-            <Link href="/askMe">Ask me </Link>
-            <Link href="/projects">projects</Link>
-            <Link href="/contacts">contacts</Link>
+            <Link href="/" className=" hover:text-gray-600">Home</Link>
+            <Link href="/about" className="hover:text-gray-600">about </Link>
+            <Link href="/askMe" className="hover:text-gray-600">Ask me </Link>
+            <Link href="/projects" className="hover:text-gray-600">projects</Link>
+            <Link href="/contacts" className="hover:text-gray-600">contacts</Link>
           </div>
 
 

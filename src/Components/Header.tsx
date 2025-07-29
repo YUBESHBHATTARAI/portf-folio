@@ -10,9 +10,12 @@ export default function Header(){
 
         <div className="h-16 md:h-20 fixed top-0 text-2xl z-50  w-full  not-first:flex items-center justify-between p-4   gap-8  md:justify-around border-b-2  bg-gray-300/40  backdrop-blur-[2px]   ">
             {/* logo */}
-         <div className="text-xl md:text-2xl font-bold text-gray-500 mx-6">
-           y<span className="font-bold text-3xl text-gray-700">B</span>
+        <Link href="/" className=" hover:text-gray-400    ">
+         <div className="text-4xl font-bold text-zinc-600 mx-6 hover:text-gray-400 hover:scale-120 transition-all duration-300 ease-in-out">
+           y<span className=" text-3xl text-gray-700 italic hover:text-gray-400 hover:scale-105 transition-all duration-300 ease-in-out">B</span>
          </div>
+        </Link>
+
 
          {/* hamberger */}
          <div className="hidden md:flex flex-row items-center gap-5 font-mono">

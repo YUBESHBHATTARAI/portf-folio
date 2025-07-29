@@ -1,12 +1,34 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import { projects } from "@/data";
+import {useState, useEffect } from "react";
 export default function Projects() {
+
+
+ const [currentIndex, setCurrentIndex] = useState(0);
+
+ useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentIndex(prevIndex => 
+      prevIndex === projects.length - 1 ? 0 : prevIndex + 1
+    );
+  }, 3000); // every 3 seconds
+
+  return () => clearInterval(interval); // stop interval on unmount
+}, []);
+
+  
+
+ 
   return (
-    <div className="  overflow-x-scroll text-stone-700 w-[70%] mx-auto  ">
-      <div className=" w-max  gap-2   flex items-center justify-center  ">
+    <div>
+      <h1 className="text-2xl font-bold text-center">My Projects</h1>
+      <div className="  overflow-x-scroll text-stone-700 md:w-[70%] mx-auto  ring ring-black  w-[95%] ">
+      <div className=" w-max  gap-2   flex  items-center justify-center  ">
+        
         {projects.map((item) => (
-          <div key={item.id} className="w-[74vw] flex flex-col justify-center items-center h-[60vh] p-6 md:w-[34vw] lg:w-[23vw]  transition-all duration-500 ease-in-out   ">
+          <div key={item.id} className=" mx-auto w-[92vw] flex flex-col justify-center items-center h-[60vh] p-6 md:w-[34vw] lg:w-[23vw]  transition-all duration-500 ease-in-out   ">
             {item.img && (
               <div className="relative flex flex-1 w-full">
                   <Link href="/projects">
@@ -29,5 +51,6 @@ export default function Projects() {
         ))}
       </div>
     </div>
+     </div>
   );
 }
