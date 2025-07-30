@@ -1,4 +1,5 @@
-
+"use client";
+import {useState ,useEffect } from "react";
 
 const schools=[
   {
@@ -30,28 +31,56 @@ const schools=[
  
 
 
-export default function Education(){
+// export default function Education(){
 
-    return(
-      <>
-      <h1 className="text-center ">My Education</h1>
-        <div className=" w-screen flex  flex-col px-6 py-3  gap-1 md:flex-row  text-stone-600 rounded-lg    ">
-          {schools.map((item)=>(
-           <div  key={item.id} className="ring-1 ring-black w-full  flex flex-col justify-center items-center my-2 md:mx-1  h-[30vh] md:h-[36vh] lg:h-[40vh]  md:w-[50vw] lg:w-[33vw] shadow-[0_0_20px_rgba(0,0,0,0.15)] 
- rounded-lg  gap-4       ">
-                 <h1 className="text-center text-2xl lg:text-3xl  font-bold font-serif uppercase ">{item.class}</h1>
-                 <h1 className="text-center  text-xl font-bold font-sans text-stone-800">{item.fullname} <span className="font-mono font-bold ">({item.name})</span></h1>
-                 <p className="text-center  font-mono  ">SUB:{item.sub}</p>
-                 <p className="text-center  font-sans italic font-bold ">{item.date}</p>
+//     return(
+//       <>
+//       <h1 className="text-center ">My Education</h1>
+//         <div className=" w-screen flex  flex-col px-6 py-3  gap-1 md:flex-row  text-stone-600 rounded-lg    ">
+//           {schools.map((item)=>(
+//            <div  key={item.id} className="ring-1 ring-black w-full  flex flex-col justify-center items-center my-2 md:mx-1  h-[30vh] md:h-[36vh] lg:h-[40vh]  md:w-[50vw] lg:w-[33vw] shadow-[0_0_20px_rgba(0,0,0,0.15)] 
+//  rounded-lg  gap-4       ">
+//                  <h1 className="text-center text-2xl lg:text-3xl  font-bold font-serif uppercase ">{item.class}</h1>
+//                  <h1 className="text-center  text-xl font-bold font-sans text-stone-800">{item.fullname} <span className="font-mono font-bold ">({item.name})</span></h1>
+//                  <p className="text-center  font-mono  ">SUB:{item.sub}</p>
+//                  <p className="text-center  font-sans italic font-bold ">{item.date}</p>
                             
-           </div>
+//            </div>
 
-          ))}
+//           ))}
            
           
 
 
-        </div>
-           </>
-        )
+//         </div>
+//            </>
+//         )
+// }
+
+export default  function Education(){
+     const[current , setCurrent]=useState(0);
+
+     useEffect(()=>{
+       const interval = setInterval( ()=>{
+        setCurrent((prev)=> (prev === schools.length-1 ? 0: prev+1))
+       },3000)
+
+       const cleanup = () =>(
+         clearInterval(interval)
+       )
+
+     })
+
+
+  
+
+  return(
+    <div>
+           <div>
+             <h1> {schools[current].class}</h1>
+             <h1> {schools[current].fullname}</h1>
+           </div>
+    </div>
+  )
+
 }
