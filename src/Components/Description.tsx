@@ -24,7 +24,10 @@ export default function Description(){
                </div>
            </div>
            {/* img section */}
-        <div className="relative h-[25vh] w-[45vw] md:h-[28vh] md:w-[29vw] lg:h-[30vh] lg:w-[15vw] order-1 md:order-2 bg-blue-400 rounded-full mt-1 shadow-xl shadow-blue-500/75 md:rounded-full ">
+ 
+
+{/* img section */}
+<div className="relative aspect-square w-[40vw] md:w-[30vw] lg:w-[15vw] order-1 md:order-2 mt-1 rounded-full overflow-hidden shadow-xl shadow-blue-500/75 bg-blue-400">
   <Image
     src="/profile.jpg"
     alt="Profile"
@@ -32,6 +35,7 @@ export default function Description(){
     className="object-cover rounded-full p-3"
   />
 </div>
+
         </div>
     )
 }

@@ -31,31 +31,7 @@ const schools=[
  
 
 
-// export default function Education(){
 
-//     return(
-//       <>
-//       <h1 className="text-center ">My Education</h1>
-//         <div className=" w-screen flex  flex-col px-6 py-3  gap-1 md:flex-row  text-stone-600 rounded-lg    ">
-//           {schools.map((item)=>(
-//            <div  key={item.id} className="ring-1 ring-black w-full  flex flex-col justify-center items-center my-2 md:mx-1  h-[30vh] md:h-[36vh] lg:h-[40vh]  md:w-[50vw] lg:w-[33vw] shadow-[0_0_20px_rgba(0,0,0,0.15)] 
-//  rounded-lg  gap-4       ">
-//                  <h1 className="text-center text-2xl lg:text-3xl  font-bold font-serif uppercase ">{item.class}</h1>
-//                  <h1 className="text-center  text-xl font-bold font-sans text-stone-800">{item.fullname} <span className="font-mono font-bold ">({item.name})</span></h1>
-//                  <p className="text-center  font-mono  ">SUB:{item.sub}</p>
-//                  <p className="text-center  font-sans italic font-bold ">{item.date}</p>
-                            
-//            </div>
-
-//           ))}
-           
-          
-
-
-//         </div>
-//            </>
-//         )
-// }
 
 export default  function Education(){
      const[current , setCurrent]=useState(0);
@@ -63,24 +39,30 @@ export default  function Education(){
      useEffect(()=>{
        const interval = setInterval( ()=>{
         setCurrent((prev)=> (prev === schools.length-1 ? 0: prev+1))
-       },3000)
+       },5000)
 
-       const cleanup = () =>(
+       return  () =>{
          clearInterval(interval)
-       )
+       }
 
-     })
+     },[schools.length])
 
 
   
 
   return(
-    <div>
-           <div>
-             <h1> {schools[current].class}</h1>
-             <h1> {schools[current].fullname}</h1>
+    <>
+        <h1 className="text-center font-bold  ">My Education</h1>
+           <div className=" w-screen md:w-[76vw]  lg:w-[64vw] flex  flex-col items-center justify-center px-6 py-4  gap-1 md:flex-row  text-stone-600 rounded-lg  mx-auto   ">
+           <div className="ring-1 ring-black w-full px-2 py-3  flex flex-col justify-center items-center my-2 md:mx-1  h-[30vh] md:h-[36vh] lg:h-[40vh]  md:w-[50vw] lg:w-[50vw] shadow-[0_0_20px_rgba(0,0,0,0.15)] 
+  rounded-lg  gap-4 ">
+             <h1 className="text-center text-2xl lg:text-3xl  font-bold font-serif uppercase ">{schools[current].class}</h1>
+            <h1 className="text-center  text-xl font-bold font-sans text-stone-800">{schools[current].fullname} <span className="font-mono font-bold ">({schools[current].name})</span></h1>
+                 <p className="text-center  font-mono  ">SUB:{schools[current].sub}</p>
+             <p className="text-center  font-sans italic font-bold ">{schools[current].date}</p>
            </div>
     </div>
+    </>
   )
 
 }

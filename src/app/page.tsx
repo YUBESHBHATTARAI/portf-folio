@@ -1,21 +1,17 @@
 import Description from "@/Components/Description";
 
 import Projects from "@/Components/Projects";
-import Education from "@/Components/Education"
-import Suggestion from "@/Components/Suggesstion";
-import Slider from "@/Components/Slider";
+import Education from "@/Components/Education";
+
 import Image from "next/image";
 
-
 export default function Home() {
-
   return (
     <div>
-      <Description/>
-      <Projects/>
-      <Slider/>
-      <Education/>
-      <Suggestion/>
+      <Description />
+      <Projects />
+
+      <Education />
     </div>
   );
 }
