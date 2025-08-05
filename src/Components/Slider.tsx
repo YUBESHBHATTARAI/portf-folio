@@ -52,7 +52,7 @@ export default function CustomMarquee() {
               className="text-xl font-bold  mx-5"
             >
               <Link href={items.url}>
-              <Image src={items.logo} alt={items.alt} height={80} width={80}/>
+              <Image src={items.logo} alt={items.alt} height={20} width={20}/>
               </Link>
             </span>
           ))}
@@ -64,7 +64,7 @@ export default function CustomMarquee() {
               className="text-xl font-bold mx-5"
             >
            <Link href={items.url}>
-              <Image src={items.logo} alt={items.alt} height={80} width={80}/>
+              <Image src={items.logo} alt={items.alt} height={20} width={20}/>
               </Link>
             </span>
           ))}
