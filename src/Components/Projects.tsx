@@ -23,12 +23,12 @@ export default function Projects() {
  
   return (
     <div>
-      <h1 className="text-2xl font-bold text-center">My Projects</h1>
+      <h1 className="text-2xl font-bold text-center py-2 uppercase font-[Inter] ">My Projects</h1>
       <div className="  overflow-x-scroll text-stone-700 md:w-[76vw]  lg:w-[64vw]  mx-auto  ring ring-black  w-[95%] ">
       <div className=" w-max  gap-2   flex  items-center justify-center  ">
         
         {projects.map((item) => (
-          <div key={item.id} className=" mx-auto w-[92vw] flex flex-col justify-center items-center h-[60vh] p-6 md:w-[55rem] lg:w-[24vw]  transition-all duration-500 ease-in-out   ">
+          <div key={item.id} className=" mx-auto w-[92vw] flex flex-col justify-center items-center h-[60vh] p-6 md:w-[38vw] lg:w-[21vw]  transition-all duration-500 ease-in-out   ">
             {item.img && (
               <div className="relative flex flex-1 w-full">
                   <Link href="/projects">

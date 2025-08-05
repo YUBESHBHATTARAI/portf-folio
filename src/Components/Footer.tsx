@@ -12,10 +12,12 @@ export default function Footer(){
 
          <div className=" flex flex-col   gap-3 md:flex-row md:justify-evenly     ">
             {/* logo */}
-         <div className="text-xl md:text-3xl font-bold text-red-500 mx-4 ">
-
-             YB
+             {/* logo */}
+        <Link href="/" className=" hover:text-gray-400    ">
+         <div className="text-4xl font-bold text-zinc-600 mx-6 hover:text-gray-400 hover:scale-120 transition-all duration-300 ease-in-out">
+           y<span className=" text-3xl text-gray-700 italic hover:text-gray-400 hover:scale-105 transition-all duration-300 ease-in-out">B</span>
          </div>
+        </Link>
 
 
           {/* nav links */}
@@ -36,7 +38,7 @@ export default function Footer(){
            <Link href="/facebook">Facebook</Link>
            <Link href="/github">github</Link>
            <Link href="/linkedin">linkedIn</Link>
-           <Link href="/instagram">insta</Link>
+           <Link href="/instagram">instagram</Link>
           </div>
           </div>
           

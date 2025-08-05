@@ -52,8 +52,8 @@ export default  function Education(){
 
   return(
     <>
-        <h1 className="text-center font-bold  ">My Education</h1>
-           <div className=" w-screen  md:w-[90%]  lg:w-[77%] flex  flex-col items-center justify-center px-6 py-4  gap-1 md:flex-row  text-stone-600 rounded-lg  mx-auto   ">
+        <h1 className="text-2xl font-bold text-center py-2 uppercase font-[Inter] ">My Education</h1>
+           <div className=" w-screen  md:w-[90%]  lg:w-[77%] flex  flex-col items-center justify-center px-6   gap-1 md:flex-row  text-stone-600 rounded-lg  mx-auto   ">
            <div className="ring-1 ring-black w-full px-2 py-3  flex flex-col justify-center items-center my-2 md:mx-1  h-[30vh] md:h-[36vh] lg:h-[40vh]  md:w-[80%] lg:w-[85%] shadow-[0_0_20px_rgba(0,0,0,0.15)] 
                 rounded-lg  gap-4 ">
              <h1 className="text-center  md:text-3xl  text-2xl lg:text-4xl  font-bold font-serif uppercase ">{schools[current].class}</h1>
