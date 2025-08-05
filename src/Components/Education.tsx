@@ -53,15 +53,15 @@ export default  function Education(){
   return(
     <>
         <h1 className="text-center font-bold  ">My Education</h1>
-           <div className=" w-screen md:w-[76vw]  lg:w-[64vw] flex  flex-col items-center justify-center px-6 py-4  gap-1 md:flex-row  text-stone-600 rounded-lg  mx-auto   ">
-           <div className="ring-1 ring-black w-full px-2 py-3  flex flex-col justify-center items-center my-2 md:mx-1  h-[30vh] md:h-[36vh] lg:h-[40vh]  md:w-[50vw] lg:w-[50vw] shadow-[0_0_20px_rgba(0,0,0,0.15)] 
-  rounded-lg  gap-4 ">
-             <h1 className="text-center text-2xl lg:text-3xl  font-bold font-serif uppercase ">{schools[current].class}</h1>
-            <h1 className="text-center  text-xl font-bold font-sans text-stone-800">{schools[current].fullname} <span className="font-mono font-bold ">({schools[current].name})</span></h1>
-                 <p className="text-center  font-mono  ">SUB:{schools[current].sub}</p>
-             <p className="text-center  font-sans italic font-bold ">{schools[current].date}</p>
+           <div className=" w-screen  md:w-[90%]  lg:w-[77%] flex  flex-col items-center justify-center px-6 py-4  gap-1 md:flex-row  text-stone-600 rounded-lg  mx-auto   ">
+           <div className="ring-1 ring-black w-full px-2 py-3  flex flex-col justify-center items-center my-2 md:mx-1  h-[30vh] md:h-[36vh] lg:h-[40vh]  md:w-[80%] lg:w-[85%] shadow-[0_0_20px_rgba(0,0,0,0.15)] 
+                rounded-lg  gap-4 ">
+             <h1 className="text-center  md:text-3xl  text-2xl lg:text-4xl  font-bold font-serif uppercase ">{schools[current].class}</h1>
+            <h1 className="text-center  md:text-3xl lg:text-4xl text-xl font-bold font-sans text-stone-800">{schools[current].fullname} <span className="font-mono font-bold ">({schools[current].name})</span></h1>
+                 <p className="text-center md:text-2xl  lg:text-3xl text-xl font-mono  ">SUB:{schools[current].sub}</p>
+             <p className="text-center md:text-3xl  lg:text-4xl font-sans italic font-bold ">{schools[current].date}</p>
            </div>
-    </div>
+           </div>
     </>
   )
 
