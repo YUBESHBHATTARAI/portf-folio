@@ -52,8 +52,8 @@ export default function CustomMarquee() {
               className="text-xl font-bold  mx-5"
             >
               <Link href={items.url}>
-              <Image src={items.logo} alt={items.alt} height={50} width={50}/>
-              {items.text}</Link>
+              <Image src={items.logo} alt={items.alt} height={80} width={80}/>
+              </Link>
             </span>
           ))}
         </div>
@@ -61,11 +61,11 @@ export default function CustomMarquee() {
           {items.map((items) => (
             <span
               key={`clone-${items.id}`}
-              className="text-xl font-semibold   mx-5"
+              className="text-xl font-bold mx-5"
             >
            <Link href={items.url}>
-              <Image src={items.logo} alt={items.text} height={50} width={50}/>
-              {items.text}</Link>
+              <Image src={items.logo} alt={items.alt} height={80} width={80}/>
+              </Link>
             </span>
           ))}
         </div>
