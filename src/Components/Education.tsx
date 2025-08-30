@@ -39,7 +39,7 @@ export default  function Education(){
      useEffect(()=>{
        const interval = setInterval( ()=>{
         setCurrent((prev)=> (prev === schools.length-1 ? 0: prev+1))
-       },5000)
+       },3000)
 
        return  () =>{
          clearInterval(interval)

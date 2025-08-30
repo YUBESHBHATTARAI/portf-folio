@@ -9,15 +9,16 @@ export default function CustomMarquee() {
   const [scrollWidth, setScrollWidth] = useState(0);
 
   const items = [
-    { id: 1, logo: "/skills/c.png", url: "https://www.cprogramming.com/", text: "C", alt: "C Logo" },
-    { id: 2, logo: "/skills/c++.png", url: "https://cplusplus.com/", text: "C++", alt: "C++ Logo" },
-    { id: 3, logo: "/skills/profile.jpg", url: "https://www.python.org", text: "Python", alt: "Python Logo" },
-    { id: 4, logo: "/skills/Js.png", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript", text: "JavaScript", alt: "JavaScript Logo" },
-    { id: 5, logo: "/skills/Html.png", url: "https://developer.mozilla.org/en-US/docs/Web/HTML", text: "HTML", alt: "HTML Logo" },
-    { id: 6, logo: "/skills/css.png", url: "https://developer.mozilla.org/en-US/docs/Web/CSS", text: "CSS", alt: "CSS Logo" },
-    { id: 7, logo: "/skills/react.png", url: "https://reactjs.org", text: "React", alt: "React Logo" },
-    { id: 8, logo: "/skills/Next.png", url: "https://nodejs.org", text: "Node.js", alt: "Node.js Logo" },
-    { id: 9, logo: "/skills/git.png", url: "https://git-scm.com/", text: "Git", alt: "Git Logo" }
+    { id: 1, logo: "/skills/Html.png", url: "https://developer.mozilla.org/en-US/docs/Web/HTML", text: "HTML", alt: "HTML Logo" },
+    { id: 2, logo: "/skills/css.png", url: "https://developer.mozilla.org/en-US/docs/Web/CSS", text: "CSS", alt: "CSS Logo" },
+    { id: 3, logo: "/skills/c.png", url: "https://www.cprogramming.com/", text: "C", alt: "C Logo" },
+    { id: 4, logo: "/skills/c++.png", url: "https://cplusplus.com/", text: "C++", alt: "C++ Logo" },
+    { id: 5, logo: "/skills/tailwind.png", url: "https://www.tailwindcss.com", text: "Tailwind CSS", alt: "Tailwind CSS Logo" },
+    { id: 6, logo: "/skills/Js.png", url: "https://www.javascript.com/", text: "JavaScript", alt: "JavaScript Logo" },
+    { id: 7, logo: "/skills/react.png", url: "https://react.dev", text: "React", alt: "React Logo" },
+    { id: 8, logo: "/skills/Next.png", url: "https://nextjs.org", text: "Next.js", alt: "Next.js Logo" },
+    { id: 9, logo: "/skills/git.png", url: "https://git-scm.com/", text: "Git", alt: "Git Logo" },
+    { id: 10, logo: "/skills/github.png", url: "https://www.github.com", text: "GitHub", alt: "GitHub Logo" },
   ];
 
   

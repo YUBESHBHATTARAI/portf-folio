@@ -6,6 +6,7 @@ type Information ={
     name:string,
     img:string,
     url:string,
+    github?:string,
     desc?:string,
     languages ?:string[]
 
@@ -17,10 +18,11 @@ type Information ={
  export  const projects: Projects =[
      {   
         id:1,
-        name:"DO you love me",
+        name:"To-do List",
         img:"/Resume.png",
-        url:"https://github.com/YUBESHBHATTARAI/fooddelivery/blob/main/src/app/menu/%5BCatogories%5D/page.tsx",
-        desc:"This is a project about love incididunt ut labore et dolore magna aliqua.dbcveubvhebvhe fbehcbvehc",
+        url:"https://github.com/YUBESHBHATTARAI/to-do",
+        github:"https://github.com/YUBESHBHATTARAI/to-do",
+        desc:"this project id ",
         languages:["JavaScript", "HTML", "CSS"]
      },
      {
@@ -41,9 +43,10 @@ type Information ={
      },
      {
         id:5,
-        name:"DO htht ",
+        name:"DO you love me ?",
         img:"/Resume.png",
-        url:"afjnjf.com",
+        url:"https://projectlove.netlify.app/",
+        github:"https://github.com/YUBESHBHATTARAI/to-do",
         desc:"This is a project about love and relationships. It explores the dynamics of love",
         languages:["JavaScript", "HTML", "CSS"]
      },
