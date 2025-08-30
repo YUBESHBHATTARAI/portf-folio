@@ -9,18 +9,26 @@ export default function Loading(){
     useEffect( ()=>{ 
         setTimeout( ()=> {
         setLoading(true);
-   }, 1000);
-
+   }, 4000);
        },[])
+
+      
 
     return(
         <>
         <div>
   {
     loading && (
-      <h1 className='text-5xl bg-gray-300 text-center flex items-center justify-center h-screen font-bold  text-black '>
-        Loading.....
-      </h1>
+      <div className='flex items-center justify-center h-screen w-screen'>
+           
+          <div className='animate-spin border-4 border-blue-500 border-b-transparent rounded-full  h-8 w-8 '>
+          </div>
+
+           <h1  className='text-3xl text-center flex items-center justify-center h-screen font-bold  text-black mx-4 '>loading...</h1>
+
+      </div>
+
+
     )
   }
 </div>

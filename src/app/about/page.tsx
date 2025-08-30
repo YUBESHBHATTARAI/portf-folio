@@ -1,3 +1,16 @@
+
+import { Metadata } from "next";
+ export const metadata: Metadata = {
+   title:{
+    absolute:"About Me",
+   } 
+
+}
+
+
+
+
+
 export default function AboutPage() {
   return (
     <div className="min-h-[calc(100vh-5rem)] mt-[4.5em] text-justify p-5 m-2 flex flex-col items-center md:justify-center">

@@ -1,5 +1,14 @@
 'use client'
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser';
+import { Metadata } from "next";
+ export const metadata: Metadata = {
+   title:{
+    absolute:"Ask me",
+   } 
+
+}
+
+
 
 
 

@@ -1,6 +1,15 @@
 import { projects } from "@/data";
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
+ export const metadata: Metadata = {
+   title:{
+    absolute:"Projects ",
+   } 
+
+}
+
+
 
 export default function ProjectsPage() {
   return (
