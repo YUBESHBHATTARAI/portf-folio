@@ -2,6 +2,7 @@ import { projects } from "@/data";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { url } from "node:inspector";
  export const metadata: Metadata = {
    title:{
     absolute:"Projects ",
@@ -14,10 +15,10 @@ import { Metadata } from "next";
 export default function ProjectsPage() {
   return (
     <div className="mt-[4rem] md:mt-[5rem] min-h-screen relative px-4 py-2  ">
-      {/* Background */}
+     
       <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]" />
 
-      {/* Project Wrapper */}
+    
       <div className="flex flex-wrap justify-center gap-6 max-w-[1200px] mx-auto ">
         {projects.map((item) => (
           <div
@@ -38,21 +39,39 @@ export default function ProjectsPage() {
               </div>
             )}
 
-            {/* Content */}
+            
             <div className="flex flex-col gap-2 items-center text-center py-2 ">
               <h1 className="text-xl font-bold">
                 <Link href="/Projects">{item.name}</Link>
+                <p className="text-sm  md:text-md  lowecase font-light text-stone-900">{item.desc}</p>
               </h1>
               <p className="text-sm text-gray-600">
                 {item.languages?.join(", ")}
               </p>
+
+              {/* links */}
+              <div className=" flex justify-center items-center gap-4 ">
+
               <Link
                 className="text-md font-semibold      text-black  px-4 py-2 rounded-md"
                 href={item.url}
                 target="_blank"
               >
                <button> {">"}</button>
+
+               
               </Link>
+               <Link 
+                className="text-md font-semibold      text-black  px-4 py-2 rounded-md"
+               href={item.url} 
+                 
+                target="_blank"
+              >
+               <button> {"github"}</button>
+
+               
+              </Link>
+              </div>
             </div>
           </div>
         ))}

@@ -24,7 +24,7 @@ export default function Projects() {
   return (
     <div>
       <h1 className="text-2xl font-bold text-center py-2 uppercase font-[Inter] ">My Projects</h1>
-      <div className="  overflow-x-scroll text-stone-700 md:w-[76vw]  lg:w-[64vw]  mx-auto  ring ring-black  w-[95%] ">
+      <div className="  overflow-x-scroll  text-stone-700 md:w-[76vw]  lg:w-[64vw]  mx-auto  ring ring-black  w-[95%] ">
       <div className=" w-max  gap-2   flex  items-center justify-center  ">
         
         {projects.map((item) => (

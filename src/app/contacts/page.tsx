@@ -55,8 +55,11 @@ export default function Contacts() {
                         
                              <Link key={index} href={link.url} >
                              <div className=" flex  ring ring-black px-4  py-2 rounded-md  my-2 gap-3  w-[20rem] md:w-[36rem] lg:w-[50rem]  ">
-                                 <Image src={link.img} alt="" width={30} height={30} />
-                                   <h1 className=" text-lg italic font-[Inter] md:text-2xl lg:text-3xl ">  Connect me with my<span className="font-semibold text-xl md:text-2xl lg:text-3xl ">  {link.name}</span>   </h1>
+                                 <Image  className="rounded-full " src={link.img} alt="" width={30} height={30} />
+                                   <h1 className=" text-lg italic font-[Inter] md:text-2xl lg:text-3xl hover:scale-96 transition-all duration-300 "> 
+                                     Connect me with my
+                                     <span className="font-semibold text-xl md:text-2xl lg:text-3xl hover:underline  "> {link.name}</span>  
+                                      </h1>
                              </div>
                              </Link>
 

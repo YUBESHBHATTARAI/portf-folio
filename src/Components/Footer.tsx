@@ -35,10 +35,10 @@ export default function Footer(){
           <div className="flex flex-col  gap-4  font-mono"  >
              <h1 className="text-xl md:text-center font-bold font-serif ">Social links</h1>
           <div className=" flex flex-row  gap-4 ">
-           <Link href="/facebook">Facebook</Link>
+           <Link href="https://www.facebook.com/yubesh.bhattarai">Facebook</Link>
            <Link href="/github">github</Link>
-           <Link href="/linkedin">linkedIn</Link>
-           <Link href="/instagram">instagram</Link>
+           <Link href="/https://www.facebook.com/yubesh.bhattarai">linkedIn</Link>
+           <Link href="/https://www.facebook.com/yubesh.bhattarai">instagram</Link>
           </div>
           </div>
           
