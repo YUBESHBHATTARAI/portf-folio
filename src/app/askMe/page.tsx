@@ -1,12 +1,13 @@
-'use client'
+"use client"
+
+
 import emailjs from '@emailjs/browser';
 import { Metadata } from "next";
- export const metadata: Metadata = {
-   title:{
-    absolute:"Ask me",
-   } 
 
-}
+
+
+
+
 
 
 
@@ -58,10 +59,10 @@ export default function AskMePage() {
 
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-2 sm:p-4 relative overflow-hidden mt-[4rem] md:mt-[5rem]">
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-2 sm:p-4 relative overflow-hidden mt-[4rem] md:mt-[5rem]  ">
       <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
 
-      <div className="relative z-10 w-full max-w-2xl">
+      <div className="relative z-10 w-full max-w-2xl mb-[2rem]">
         {/* Header Section */}
         <div className="text-center mb-6 sm:mb-12">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-2 sm:mb-4 bg-gradient-to-r from-gray-700 via-black to-gray-800 bg-clip-text text-transparent">
@@ -96,7 +97,7 @@ export default function AskMePage() {
                     type="text"
                     placeholder="Your Name"
                     value={formData.name}
-                    onChange={handleInputChange}
+                    onChange={handleSubmit}
                     required
                     className="bg-gray-50 border-gray-300 text-gray-900 placeholder:text-gray-500 focus:border-gray-800 focus:ring-gray-800 transition-all duration-300 text-sm sm:text-base h-10 sm:h-11"
                   />
@@ -111,7 +112,7 @@ export default function AskMePage() {
                     type="email"
                     placeholder="your@email.com"
                     value={formData.email}
-                    onChange={handleInputChange}
+                    onChange={handleSubmit}
                     required
                     className="bg-gray-50 border-gray-300 text-gray-900 placeholder:text-gray-500 focus:border-gray-800 focus:ring-gray-800 transition-all duration-300 text-sm sm:text-base h-10 sm:h-11"
                   />
@@ -128,7 +129,7 @@ export default function AskMePage() {
                   type="text"
                   placeholder="What's your question about?"
                   value={formData.subject}
-                  onChange={handleInputChange}
+                  onChange={handleSubmit}
                   required
                   className="bg-gray-50 border-gray-300 text-gray-900 placeholder:text-gray-500 focus:border-gray-800 focus:ring-gray-800 transition-all duration-300 text-sm sm:text-base h-10 sm:h-11"
                 />
@@ -144,7 +145,7 @@ export default function AskMePage() {
                   rows={3}
                   placeholder="Ask me anything about my projects, skills, or experience..."
                   value={formData.message}
-                  onChange={handleInputChange}
+                  onChange={handleSubmit}
                   required
                   className="w-full px-3 py-2 bg-gray-50 border border-gray-300 rounded-md text-gray-900 placeholder:text-gray-500 focus:border-gray-800 focus:ring-gray-800 focus:outline-none transition-all duration-300 resize-none text-sm sm:text-base"
                 />

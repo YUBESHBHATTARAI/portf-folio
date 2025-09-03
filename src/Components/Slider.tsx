@@ -40,6 +40,11 @@ export default function CustomMarquee() {
   }, [scrollWidth]);
 
   return (
+    <>
+     <h1 className="text-2xl font-bold text-center py-2 uppercase font-[Inter] ">
+        My Skills
+      </h1>
+   
     <div className="overflow-hidden h-[120px] relative my-6 flex items-center justify-center w-[95%] md:w-[76vw] lg:w-[64vw] mx-auto bg-gray-50 rounded-xl shadow">
       <div
         className="flex absolute whitespace-nowrap"
@@ -72,5 +77,6 @@ export default function CustomMarquee() {
         ))}
       </div>
     </div>
+    </>
   );
 }

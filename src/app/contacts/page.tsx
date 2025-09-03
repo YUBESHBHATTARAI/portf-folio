@@ -16,10 +16,10 @@ const links=[
         name:"Facebook", url:"https://www.facebook.com/yubesh.bhattarai",img:"/Resume.png"
     },
     {
-        name:"github", url:"https://www.facebook.com/yubesh.bhattarai",img:"/Resume.png"
+        name:"github", url:"https://github.com/YUBESHBHATTARAI",img:"/Resume.png"
     },
     {
-        name:"linkedin", url:"https://www.facebook.com/yubesh.bhattarai",img:"/src/profile.png"
+        name:"linkedin", url:"https://www.linkedin.com/in/yubesh-bhattarai-123456789/",img:"/src/profile.png"
     },
     {
         name:"facebook", url:"https://www.facebook.com/yubesh.bhattarai",img:"/Resume.png"
@@ -27,15 +27,8 @@ const links=[
     {
         name:"reddit", url:"https://www.facebook.com/yubesh.bhattarai",img:"/skills/Js.png"
     },
-    {
-        name:"X", url:"https://www.facebook.com/yubesh.bhattarai",img:"/skills/Next.png"
-    },
-    {
-        name:"X", url:"https://www.facebook.com/yubesh.bhattarai",img:"/skills/Next.png"
-    },
-    {
-        name:"X", url:"https://www.facebook.com/yubesh.bhattarai",img:"/skills/Next.png"
-    },
+   
+
 ]
 export default function Contacts() {
 
