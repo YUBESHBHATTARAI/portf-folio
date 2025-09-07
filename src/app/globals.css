@@ -122,6 +122,8 @@
 @layer utilities {
   .scrollbar-none::-webkit-scrollbar {
     display: none;
+    transition:all;
+    transition-duration:500;
   }
   .scrollbar-none {
     -ms-overflow-style: none;  

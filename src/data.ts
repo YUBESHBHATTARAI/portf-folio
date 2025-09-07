@@ -19,7 +19,7 @@ type Information ={
      {   
         id:1,
         name:"To-do List",
-        img:"/Resume.png",
+        img:"/UNDER.png",
         url:"https://github.com/YUBESHBHATTARAI/to-do",
         github:"https://github.com/YUBESHBHATTARAI/to-do",
         desc:"this project id ",
@@ -27,24 +27,26 @@ type Information ={
      },
      {
         id:2,
-        name:"DO whatevgbthbthtr",
-        img:"/portfolio/public/swimming .jpg",
-        url:"afjnjf.com",
+        name:"Personal blog",
+        img:"/UNDER.png",
+        url:"https://yubeshbhattarai.github.io/News-blog",
+        github:"https://github.com/YUBESHBHATTARAI/News-blog",
         desc:"This is a project about love and relationships. It explores the dynamics of love",
         languages:["JavaScript", "HTML", "CSS"]
      },
      {
         id:4,
-        name:"DO  fthrhtj",
-        img:"/profile.jpg",
-        url:"afjnjf.com",
+        name:"Facebook Clone",
+        img:"/UNDER.png",
+        url:"https://yubeshbhattarai.github.io/facebookclone",
+        github:"https://github.com/YUBESHBHATTARAI/facebookclone",
         desc:"This is a project about love and relationships. It explores the dynamics of love",
         languages:["JavaScript", "HTML", "CSS"]
      },
      {
         id:5,
         name:"DO you love me ?",
-        img:"/Resume.png",
+        img:"/UNDER.png",
         url:"https://projectlove.netlify.app/",
         github:"https://github.com/YUBESHBHATTARAI/to-do",
         desc:"This is a project about love and relationships. It explores the dynamics of love",
@@ -52,34 +54,36 @@ type Information ={
      },
      {
         id:6,
-        name:"DO ygth hh yuj ",
-        img:"/profile.jpg",
-        url:"afjnjf.com",
+        name:"Decimals",
+        img:"/UNDER.png",
+        url:"https://decimalss.netlify.app/index.html",
+        github:"https://github.com/YUBESHBHATTARAI/DECIMALS",
         desc:"This is a project about love and relationships. It explores the dynamics of love",
         languages:["JavaScript", "HTML", "CSS"]
      },
      {
         id:7,
-        name:"DO wegdbgfe ",
-        img:"/Resume.png",
-        url:"afjnjf.com",
+        name:"Dashain ",
+        img:"/UNDER.png",
+        url:"https://dashain.vercel.app/",
+        github:"https://github.com/YUBESHBHATTARAI/Dashain",
         desc:"This is a project about love and relationships. It explores the dynamics of love",
         languages:["JavaScript", "HTML", "CSS"]
      },
      {
         id:8,
-        name:"DO wegdbgfe ",
-        img:"/Resume.png",
-        url:"afjnjf.com",
+        name:"Food Delivery",
+        img:"/UNDER.png",
+        url:"https://github.com/YUBESHBHATTARAI/fooddelivery",
         desc:"This is a project about love and relationships. It explores the dynamics of love",
         languages:["JavaScript", "HTML", "CSS"]
      },
        {
          id:9,
-         name:"DO wegdbgfe ",
-         img:"/Resume.png",
-         url:"afjnjf.com",
-         desc:"This is a project about love and relationships. It explores the dynamics of love",
+         name:"Family website ",
+         img:"/UNDER.png",
+         url:"https://github.com/YUBESHBHATTARAI/P1",
+         desc:"[Under Construction] This is a project about love and relationships. It explores the dynamics of love",
          languages:["JavaScript", "HTML", "CSS"]
        },
      {

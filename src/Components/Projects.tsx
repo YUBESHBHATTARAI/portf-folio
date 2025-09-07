@@ -4,6 +4,7 @@ import Link from "next/link";
 import { projects } from "@/data";
 import { useState, useEffect } from "react";
 export default function Projects() {
+  
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -11,8 +12,7 @@ export default function Projects() {
       setCurrentIndex((prevIndex) =>
         prevIndex === projects.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000); // every 3 seconds
-
+    }, 3000); 
     return () => clearInterval(interval);
   }, []);
 
@@ -21,8 +21,8 @@ export default function Projects() {
       <h1 className="text-2xl font-bold text-center py-2 uppercase font-[Inter] ">
         My Projects
       </h1>
-      <div className="  overflow-x-scroll scrollbar-none  text-stone-700 md:w-[76vw]  lg:w-[64vw]  mx-auto  ring ring-black  w-[95%] ">
-        <div className=" w-max  gap-2   flex  items-center justify-center  ">
+      <div className="  overflow-x-scroll scroll-smooth scrollbar-none   text-stone-700 md:w-[76vw]  lg:w-[64vw]  mx-auto  ring ring-black  w-[95%] ">
+        <div className=" w-max  gap-2   flex  items-center justify-center cursor-pointer  ">
           {projects.map((item) => (
             <div
               key={item.id}
@@ -53,7 +53,7 @@ export default function Projects() {
                     href={item.url}
                     target="_blank"
                   >
-                    <button className="relative  h-[30px] w-[30px]">
+                    <button className=" relative h-[25px] w-[25px] md:h-[35px] md:w-[35px] lg:h-[40px] lg:w-[40px] cursor-pointer">
                       <Image src="/link.png" alt=""  fill/>
                     </button>
                   </Link>
@@ -63,7 +63,7 @@ export default function Projects() {
                     href={item.url}
                     target="_blank"
                   >
-                     <button className="relative  h-[40px] w-[40px]">
+                     <button className="relative h-[30px] w-[30px] md:h-[40px] md:w-[40px] cursor-pointer">
                       <Image src="/github.png" alt=""  fill/>
                     </button>
                   </Link>
