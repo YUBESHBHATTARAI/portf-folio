@@ -53,21 +53,21 @@ export default function ProjectsPage() {
               <div className=" flex justify-center items-center gap-4 ">
 
               <Link
-                    className="text-md font-semibold cursor-pointer  text-black  px-4 py-2 rounded-md"
+                    className="text-md font-semibold   text-black  px-4 py-2 rounded-md"
                     href={item.url}
                     target="_blank"
                   >
-                    <button className="relative  h-[30px] w-[30px]">
+                    <button className="relative cursor-pointer  h-[30px] w-[30px]">
                       <Image src="/link.png" alt="link"  fill/>
                     </button>
                   </Link>
 
                   <Link
-                    className="text-md font-semibold cursor-pointer text-black  px-4 py-2 rounded-md"
+                    className="text-md font-semibold  text-black  px-4 py-2 rounded-md"
                     href={item.url}
                     target="_blank"
                   >
-                     <button className="relative  h-[40px] w-[40px]">
+                     <button className="relative cursor-pointer  h-[40px] w-[40px]">
                       <Image src="/github.png" alt="github"  fill/>
                     </button>
                   </Link>

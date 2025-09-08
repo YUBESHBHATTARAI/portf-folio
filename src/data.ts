@@ -22,8 +22,8 @@ type Information ={
         img:"/UNDER.png",
         url:"https://github.com/YUBESHBHATTARAI/to-do",
         github:"https://github.com/YUBESHBHATTARAI/to-do",
-        desc:"this project id ",
-        languages:["JavaScript", "HTML", "CSS"]
+        desc:"this is is a simple to-do list app that allows user to add ,delete tasks ",
+        languages:["Nextjs", "TypeScript", "TailwindCSS"],
      },
      {
         id:2,
@@ -31,8 +31,8 @@ type Information ={
         img:"/UNDER.png",
         url:"https://yubeshbhattarai.github.io/News-blog",
         github:"https://github.com/YUBESHBHATTARAI/News-blog",
-        desc:"This is a project about love and relationships. It explores the dynamics of love",
-        languages:["JavaScript", "HTML", "CSS"]
+        desc:"This is a project where i post my personal blogs and articles",
+        languages:["Nextjs", "TypeScript", "TailwindCSS"],
      },
      {
         id:4,
@@ -40,8 +40,8 @@ type Information ={
         img:"/UNDER.png",
         url:"https://yubeshbhattarai.github.io/facebookclone",
         github:"https://github.com/YUBESHBHATTARAI/facebookclone",
-        desc:"This is a project about love and relationships. It explores the dynamics of love",
-        languages:["JavaScript", "HTML", "CSS"]
+        desc:"This project is the clone of facebook login page",
+        languages:["JavaScript", "HTML", "CSS"],
      },
      {
         id:5,
@@ -50,7 +50,7 @@ type Information ={
         url:"https://projectlove.netlify.app/",
         github:"https://github.com/YUBESHBHATTARAI/to-do",
         desc:"This is a project about love and relationships. It explores the dynamics of love",
-        languages:["JavaScript", "HTML", "CSS"]
+        languages:["JavaScript", "HTML", "CSS"],
      },
      {
         id:6,
@@ -58,8 +58,8 @@ type Information ={
         img:"/UNDER.png",
         url:"https://decimalss.netlify.app/index.html",
         github:"https://github.com/YUBESHBHATTARAI/DECIMALS",
-        desc:"This is a project about love and relationships. It explores the dynamics of love",
-        languages:["JavaScript", "HTML", "CSS"]
+        desc:"This is a e-commerce site with minimal design  " ,
+        languages:["JavaScript", "HTML", "CSS"],
      },
      {
         id:7,
@@ -67,33 +67,26 @@ type Information ={
         img:"/UNDER.png",
         url:"https://dashain.vercel.app/",
         github:"https://github.com/YUBESHBHATTARAI/Dashain",
-        desc:"This is a project about love and relationships. It explores the dynamics of love",
-        languages:["JavaScript", "HTML", "CSS"]
+        desc:"This is a project for providing wishes for evereyone  ",
+        languages:["JavaScript", "HTML", "CSS"],
      },
      {
         id:8,
         name:"Food Delivery",
         img:"/UNDER.png",
         url:"https://github.com/YUBESHBHATTARAI/fooddelivery",
-        desc:"This is a project about love and relationships. It explores the dynamics of love",
-        languages:["JavaScript", "HTML", "CSS"]
+        desc:"This is a project about food delivery services.",
+        languages:["Nextjs", "TypeScript", "TailwindCSS"],
      },
        {
          id:9,
          name:"Family website ",
          img:"/UNDER.png",
          url:"https://github.com/YUBESHBHATTARAI/P1",
-         desc:"[Under Construction] This is a project about love and relationships. It explores the dynamics of love",
-         languages:["JavaScript", "HTML", "CSS"]
+         desc:"[Under Construction] This is a project about the dynamics of my family",
+         languages:["Nextjs", "TypeScript", "TailwindCSS"],
        },
-     {
-        id:10,
-        name:"DO wegdbgfe ",
-        img:"/Resume.png",
-        url:"afjnjf.com",
-        desc:"This is a project about love and relationships. It explores the dynamics of love",
-        languages:["JavaScript", "HTML", "CSS"]
-     },
+     
 
  ]
 

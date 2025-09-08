@@ -21,11 +21,11 @@ const links=[
     {
         name:"linkedin", url:"https://www.linkedin.com/in/yubesh-bhattarai-123456789/",img:"/src/profile.png"
     },
+{
+      name:"whatsapp", url:"https://wa.me/9779746359145" ,img:"/whatsapp.png"
+},
     {
-        name:"facebook", url:"https://www.facebook.com/yubesh.bhattarai",img:"/Resume.png"
-    },
-    {
-        name:"reddit", url:"https://www.facebook.com/yubesh.bhattarai",img:"/skills/Js.png"
+        name:"reddit", url:"https://www.reddit.com/user/YubeshBhattarai/",img:"/skills/Js.png"
     },
    
 
