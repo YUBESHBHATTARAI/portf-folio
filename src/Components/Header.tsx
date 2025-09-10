@@ -18,12 +18,12 @@ export default function Header(){
 
 
          {/* hamberger */}
-         <div className="hidden md:flex flex-row items-center gap-5 font-mono">
+         <div className="hidden md:flex flex-row items-center gap-5 font-mono ">
 
-            <Link href="/">Home</Link>
-            <Link href="/about">about </Link>
-            <Link href="/projects">projects</Link>
-            <Link href="/contacts">contacts</Link>
+            <Link  className="hover:text-stone-500 hover:scale-115 hover:transition-all duration-300"href="/">Home</Link>
+            <Link  className="hover:text-stone-500 hover:scale-115 hover:transition-all duration-300"href="/about">about </Link>
+            <Link  className="hover:text-stone-500 hover:scale-115 hover:transition-all duration-300"href="/projects">projects</Link>
+            <Link  className="hover:text-stone-500 hover:scale-115 hover:transition-all duration-300"href="/contacts">contacts</Link>
         
         </div>
 
