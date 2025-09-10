@@ -13,27 +13,27 @@ import { Metadata } from "next";
 
 const links=[
     {
-        name:"Facebook", url:"https://www.facebook.com/yubesh.bhattarai",img:"/Resume.png"
+        name:"Facebook", url:"https://www.facebook.com/yubesh.bhattarai",img:"/links/icons8-facebook-240.png"
     },
     {
-        name:"github", url:"https://github.com/YUBESHBHATTARAI",img:"/Resume.png"
+        name:"github", url:"https://github.com/YUBESHBHATTARAI",img:"/links/icons8-github-500.png"
     },
     {
-        name:"linkedin", url:"https://www.linkedin.com/in/yubesh-bhattarai-123456789/",img:"/src/profile.png"
-    },
-{
-      name:"whatsapp", url:"https://wa.me/9779746359145" ,img:"/whatsapp.png"
-},
-    {
-        name:"reddit", url:"https://www.reddit.com/user/YubeshBhattarai/",img:"/skills/Js.png"
+        name:"Instagram", url:"https://www.instagram.com/yubesh.bhattarai/",img:"/links/icons8-instagram-logo-144.png"
     },
     {
-        name:"discord", url:"https://discord.com/channels/@me",img:"/skills/Js.png"
+        name:"linkedin", url:"https://www.linkedin.com/in/yubesh-bhattarai-123456789/",img:"/links/icons8-linkedin-144.png"
     },
-   
     {
-        name:"Instagram", url:"https://www.instagram.com/yubesh.bhattarai/",img:"/skills/Js.png"
+        name:"whatsapp", url:"https://wa.me/9779746359145" ,img:"/links/icons8-whatsapp-480.png"
     },
+    {
+        name:"reddit", url:"https://www.reddit.com/user/YubeshBhattarai/",img:"/links/icons8-reddit-50.png"
+    },
+    {
+        name:"discord", url:"https://discord.com/channels/@me",img:"/links/icons8-discord-500.png"
+    },
+    
    
 
 ]
