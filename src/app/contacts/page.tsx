@@ -27,6 +27,13 @@ const links=[
     {
         name:"reddit", url:"https://www.reddit.com/user/YubeshBhattarai/",img:"/skills/Js.png"
     },
+    {
+        name:"discord", url:"https://discord.com/channels/@me",img:"/skills/Js.png"
+    },
+   
+    {
+        name:"Instagram", url:"https://www.instagram.com/yubesh.bhattarai/",img:"/skills/Js.png"
+    },
    
 
 ]
