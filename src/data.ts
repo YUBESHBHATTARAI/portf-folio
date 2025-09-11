@@ -37,7 +37,7 @@ type Information ={
      {
         id:4,
         name:"Facebook Clone",
-        img:"/UNDER.png",
+        img:"/facebook-login-clone.png",
         url:"https://yubeshbhattarai.github.io/facebookclone",
         github:"https://github.com/YUBESHBHATTARAI/facebookclone",
         desc:"This project is the clone of facebook login page",
@@ -46,7 +46,7 @@ type Information ={
      {
         id:5,
         name:"DO you love me ?",
-        img:"/UNDER.png",
+        img:"/do-you-love-me.png",
         url:"https://projectlove.netlify.app/",
         github:"https://github.com/YUBESHBHATTARAI/to-do",
         desc:"This is a project about love and relationships. It explores the dynamics of love",
@@ -55,7 +55,7 @@ type Information ={
      {
         id:6,
         name:"Decimals",
-        img:"/UNDER.png",
+        img:"/decimals.png",
         url:"https://decimalss.netlify.app/index.html",
         github:"https://github.com/YUBESHBHATTARAI/DECIMALS",
         desc:"This is a e-commerce site with minimal design  " ,
@@ -64,7 +64,7 @@ type Information ={
      {
         id:7,
         name:"Dashain ",
-        img:"/UNDER.png",
+        img:"/dashain.png",
         url:"https://dashain.vercel.app/",
         github:"https://github.com/YUBESHBHATTARAI/Dashain",
         desc:"This is a project for providing wishes for evereyone  ",
