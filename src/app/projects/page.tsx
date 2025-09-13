@@ -33,7 +33,7 @@ export default function ProjectsPage() {
                     src={item.img}
                     alt={item.name}
                     fill
-                    className="object-cover rounded-md transition-transform duration-300 hover:scale-110  "
+                    className="object-contain rounded-md transition-transform duration-300 hover:scale-110  "
                   />
                 </Link>
               </div>

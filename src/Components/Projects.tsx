@@ -35,7 +35,7 @@ export default function Projects() {
                       src={item.img}
                       alt={item.name}
                       fill
-                      className="object-cover rounded-md shadow-md shadow-gray-500/50 transition-transform duration-300 hover:scale-110"
+                      className="object-contain  rounded-md shadow-md shadow-gray-500/50 transition-transform duration-300 hover:scale-110"
                     />{" "}
                   </Link>
                 </div>

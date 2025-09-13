@@ -19,6 +19,9 @@ const links=[
         name:"github", url:"https://github.com/YUBESHBHATTARAI",img:"/links/icons8-github-500.png"
     },
     {
+        name:"google", url: "mailto:yubeshbhattarai@gmail.com",img:"/links/icons8-gmail-480.png"
+    },
+    {
         name:"Instagram", url:"https://www.instagram.com/yubesh.bhattarai/",img:"/links/icons8-instagram-logo-144.png"
     },
     {
